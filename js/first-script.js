@@ -2,6 +2,9 @@ console.info("page loaded");
 var age = 24;
 var name = "cristian";
 var employed = true;
+var location = "cluj-napoca";
+
+console.info("Locatia unde locuiesti:" + location);
 console.info("numele:" + name);
 console.info("varsta:" + age);
 console.info("angajat:" + employed);
