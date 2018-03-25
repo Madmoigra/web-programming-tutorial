@@ -1,13 +1,57 @@
 <html>
+<link rel="stylesheet" href="style.css"/>
+<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+<script src="script.js"></script>
 <body>
-<h3 style="color:darkorange">titlu de modificat</h3>
-<p id="demo">dupa ce dai click ar trebui sa se modifice</p>
-<button type="button" onclick='document.getElementById("demo").innerHTML= "aaand s-a modificat"'>modifica</button>
 
 
+<h3 class="top">Javascript play</h3>
+        <br>
+        <br>
+        <br>
+        <br>
+
+<div class="wrapper">
+    <img src="js1.PNG" width="50px">
+<content>
+        <p><h1>I</h1></p>
+        <p id="demo">dupa ce dai click ar trebui sa se modifice</p>
+        <button type="button" onclick='document.getElementById("demo").innerHTML= "aaand s-a modificat"'>Modifica</button>
+        <button type="button" onclick='document.getElementById("demo").innerHTML= "dupa ce dai click ar trebui sa se modifice"'>Undo</button>
+  <p><h1>II</h1></p>
+  <button type="button" onclick='document.getElementById("poze").style.display="block"'>Boom</button>
+        <button type="button" onclick='document.getElementById("poze").style.display="none"'>No Boom</button>
+        <br>
+        <img id="poze" style="display:none" src="nuclearwinter.gif"</p>
+
+        <br>
+  <p><h1>III</h1></p>
+
+       <button onclick="functie()">Apasa-ma</button>
+  <p><h1>IV</h1></p>
+
+    <button type="button" onclick='document.getElementById("demo1").style.display="block"'>Arata</button>
+    <button type="button" onclick='document.getElementById("demo1").style.display="none"'>Ascunde</button>
+        <p id="demo1" style="display:none">Al doilea razboi mondial a fost un razboi global
+        care a durat din 1939 pana in 1945. El a implicat marea majoritate a tarilor lumii,
+        inclusiv toate marile puteri, care au format doua aliante militare opuse: Aliatii si Axa.
+        A fost cel mai intins razboi din istorie, si a implicat direct mai mult de <span class="text1"> 100 de milioane de oameni</span></p>
+
+    <p><h1>V</h1></p>
+<p id="demo2"></p>
+
+    <script>
+    var firstName= "Cristi";
+    var secondName="Moigradan";
+    var age= 24;
+document.getElementById("demo2").innerHTML=firstName+" "+ secondName+ "are" + age;
 
 
+</script>
+</content>
 
-
+</div>
 </body>
 </html>
