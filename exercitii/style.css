@@ -1,0 +1,45 @@
+body{
+     background-color:floralwhite;
+ }
+.top{
+    position:fixed;
+    top:0;
+    font-size: 22px;
+}
+
+.wrapper{
+    width: 1000px;
+    background-color: lightskyblue;
+    margin:0 auto;
+    border-radius: 20px;
+}
+h3{
+    font-family:faster one;
+    padding: 10px;
+    color: #d42835;
+}
+p{
+    padding: 10px;
+    font-family: berkshire swash;
+}
+button{
+    border-radius:10px ;
+    background-color: lightyellow;
+    padding:10px;
+    margin: 10px;
+    font-family:berkshire swash;
+
+
+}
+#poze{
+    padding: 10px;
+}
+h1{
+
+    text-align: center;
+    font-family:MedievalSharp;
+}
+.text1{
+    font-size:20px;
+    color:red;
+}
