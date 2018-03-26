@@ -20,7 +20,9 @@ function getinfo(name) {
 
 function addApples(firstNumber, secondNumber) {
     var count = firstNumber + secondNumber;
-    return (-1)
+    if (count <3){
+    }
+   return count -0;
 }
 
 var rezultat = addApples(2,4);
