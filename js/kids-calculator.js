@@ -15,7 +15,7 @@ function addNumbers(a, b) {
         suma=b;
         degete=a;
     }
-        for(;degete > 0;){
+        while(degete){
             suma++;// luam un deget de la a
             degete--; // punem un deget la b
             console.info(suma+ ' -  au mai ramas ' + (degete-1) +' degetele')
